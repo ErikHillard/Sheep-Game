@@ -20,7 +20,7 @@ public class AnswerService {
 
 
     @Autowired
-    public AnswerService(AnswerRepository answerRepository, UserService userService, UserRepository userRepository) {
+    public AnswerService(AnswerRepository answerRepository, UserService userService) {
         this.answerRepository = answerRepository;
         this.userService = userService;
     }
